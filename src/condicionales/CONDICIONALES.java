@@ -14,7 +14,8 @@ public class CONDICIONALES {
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) {
+    public static void main(String[] args)
+    {
       float numero1, numero2;
       
       numero1 = Float.parseFloat(JOptionPane.showInputDialog("Ingrese el primer numero"));
@@ -36,6 +37,7 @@ public class CONDICIONALES {
             {
              JOptionPane.showMessageDialog(null, "Numero"+numero2+" es mayor");   
             }
+            
         }
     }
     
